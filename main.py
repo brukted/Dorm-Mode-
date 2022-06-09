@@ -12,6 +12,11 @@ def load_assets(context: Context):
     context.load_texture('grid', 'assets/grid.png')
     context.load_texture('chair_one_tex', 'assets/CHAIR_ONE_TEX.png')
     context.load_texture('chair_2_tex', 'assets/CHAIR_2_TEX.png')
+    context.load_texture('wall_tex', 'assets/WALL_TEX.png')
+    context.load_texture('celling_tex', 'assets/CELLING_TEX.png')
+    context.load_texture('floor_tex', 'assets/FLOOR_TEX.png')
+    context.load_texture('table_tex', 'assets/TABLE_TEX.png')
+    context.load_texture('papers_1_tex', 'assets/PAPERS_1_TEX.png')
 
     default_shader = context.load_shader(
         'default_shader', 'assets/vertex_shader.vert', 'assets/fragment_shader.frag')
@@ -28,11 +33,46 @@ def load_assets(context: Context):
         'texture': ("texture", 'chair_2_tex', 0)
     })
 
+    context.create_material("wall", "default_shader", {
+        'texture': ("texture", 'wall_tex', 0)
+    })
+
+    context.create_material("celling", "default_shader", {
+        'texture': ("texture", 'celling_tex', 0)
+    })
+
+    context.create_material("floor", "default_shader", {
+        'texture': ("texture", 'floor_tex', 0)
+    })
+
+    context.create_material("table", "default_shader", {
+        'texture': ("texture", 'table_tex', 0)
+    })
+
+    context.create_material("papers_1", "default_shader", {
+        'texture': ("texture", 'papers_1_tex', 0)
+    })
+
     chair_one = context.scene.load_mesh('assets/CHAIR_ONE.obj')
     chair_one.material_name = 'chair_one'
 
     chair_two = context.scene.load_mesh('assets/CHAIR_2.obj')
     chair_two.material_name = 'chair_two'
+
+    wall = context.scene.load_mesh('assets/WALL.obj')
+    wall.material_name = 'wall'
+
+    ceiling = context.scene.load_mesh('assets/CELLING.obj')
+    ceiling.material_name = 'celling'
+
+    floor = context.scene.load_mesh('assets/FLOOR.obj')
+    floor.material_name = 'floor'
+
+    table = context.scene.load_mesh('assets/TABLE.obj')
+    table.material_name = 'table'
+
+    papers_1 = context.scene.load_mesh('assets/PAPERS_1.obj')
+    papers_1.material_name = 'papers_1'
 
     # Compile Shaders
     default_shader.compile()
