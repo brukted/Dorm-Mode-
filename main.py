@@ -10,6 +10,8 @@ from core.context import Context
 def load_assets(context: Context):
     """Loads the dorm model, textures and shaders."""
     context.load_texture('grid', 'assets/grid.png')
+    context.load_texture('chair_one_tex', 'assets/CHAIR_ONE_TEX.png')
+    context.load_texture('chair_2_tex', 'assets/CHAIR_2_TEX.png')
 
     default_shader = context.load_shader(
         'default_shader', 'assets/vertex_shader.vert', 'assets/fragment_shader.frag')
@@ -18,7 +20,19 @@ def load_assets(context: Context):
         'texture': ("texture", 'grid', 0)
     })
 
-    context.scene.load_mesh('assets/cube.obj')
+    context.create_material("chair_one", "default_shader", {
+        'texture': ("texture", 'chair_one_tex', 0)
+    })
+
+    context.create_material("chair_two", "default_shader", {
+        'texture': ("texture", 'chair_2_tex', 0)
+    })
+
+    chair_one = context.scene.load_mesh('assets/CHAIR_ONE.obj')
+    chair_one.material_name = 'chair_one'
+
+    chair_two = context.scene.load_mesh('assets/CHAIR_2.obj')
+    chair_two.material_name = 'chair_two'
 
     # Compile Shaders
     default_shader.compile()

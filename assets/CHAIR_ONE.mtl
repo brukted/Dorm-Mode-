@@ -1,0 +1,273 @@
+# Blender MTL File: 'dprm.blend'
+# Material Count: 25
+
+newmtl Band
+Ns 39.999995
+Ka 1.000000 1.000000 1.000000
+Kd 0.318539 0.166249 0.100080
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl CC0Textures/Wood_034/2K-JPG
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Ns /Users/leultefera/blenderkit_data/models/table_f1b5d224-4b95-4f6d-a2e0-75bd548574a5/textures_1k/Wood034_2K_Roughness.jpg
+
+newmtl Coffee
+Ns 639.999995
+Ka 1.000000 1.000000 1.000000
+Kd 0.850000 0.433500 0.255000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Door_material
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Handle_material
+Ns 89.689390
+Ka 1.000000 1.000000 1.000000
+Kd 0.055167 0.053224 0.068381
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl LegsGum
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.023651 0.023651 0.023651
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_LegsGum_Normal.jpg
+map_Kd /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_LegsGum_BaseColor.jpg
+map_Ns /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_LegsGum_Roughness.jpg
+refl /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_LegsGum_Metallic.jpg
+
+newmtl MainColor
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.456173 0.394557 0.323159
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_MainColor_Normal.jpg
+map_Kd /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_MainColor_BaseColor.jpg
+map_Ns /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_MainColor_Roughness.jpg
+refl /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_MainColor_Metallic.jpg
+
+newmtl Metal_painted_greend
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.002627 0.014773 0.001688
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Nikon
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.011088 0.011088 0.011088
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl None
+Ns 500
+Ka 0.8 0.8 0.8
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl Scrow
+Ns 660.525184
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl White_Plastic
+Ns 801.025006
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Wood
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.507069 0.186906 0.052746
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_Wood_Normal.jpg
+map_Kd /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_Wood_BaseColor.jpg
+map_Ns /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_Wood_Roughness.jpg
+refl /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_Wood_Metallic.jpg
+
+newmtl book_cover
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.401989 0.355776 0.390127
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl celling
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl closet
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump /C:/Users/thegr/Documents/Allegorithmic/Substance Painter/export/closet_normal.png
+map_Kd /C:/Users/thegr/Documents/Allegorithmic/Substance Painter/export/closet_basecolor.jpeg
+map_Ns /C:/Users/thegr/Documents/Allegorithmic/Substance Painter/export/closet_roughness.jpeg
+refl /C:/Users/thegr/Documents/Allegorithmic/Substance Painter/export/closet_metallic.jpeg
+
+newmtl cup_brown_paint
+Ns 60.247936
+Ka 1.000000 1.000000 1.000000
+Kd 0.168269 0.076185 0.025187
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 0.100000 /Users/leultefera/Desktop/assets/models/coffee_paper_cup_e78c2841-295b-4d68-907b-a6f1408bca9b/textures_1k/istockphoto-1195955831-612x612_NRM.jpg
+map_Ks /Users/leultefera/Desktop/assets/models/coffee_paper_cup_e78c2841-295b-4d68-907b-a6f1408bca9b/textures_1k/istockphoto-1195955831-612x612_SPEC.jpg
+
+newmtl cup_color
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl cup_rounded_paper
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl floor
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.575957 0.343781 0.055635
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl hidden_material
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl paper
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl screws
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.735658 0.735658 0.735658
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_screws_Normal.jpg
+map_Kd /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_screws_BaseColor.jpg
+map_Ns /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_screws_Roughness.jpg
+refl /Users/leultefera/Desktop/assets/models/school_desk_and__01cb4cf0-89fb-49fc-8153-31cb322b5282/textures_1k/School chair_screws_Metallic.jpg
+
+newmtl stacked_paper
+Ns 58.402782
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl wall
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
