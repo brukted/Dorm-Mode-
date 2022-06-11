@@ -14,12 +14,47 @@ def load_assets(context: Context):
     context.load_texture('chair_2_tex', 'assets/CHAIR_2_TEX.png')
     context.load_texture('wall_tex', 'assets/WALL_TEX.png')
     context.load_texture('celling_tex', 'assets/CELLING_TEX.png')
+    context.load_texture('books_tex', 'assets/BOOKS_TEX.png')
+    context.load_texture('cabinate_1_tex', 'assets/CABINATE_1_TEX.png')
+    context.load_texture('cabinate_2_tex', 'assets/CABINATE_2_TEX.png')
+    context.load_texture('matress_1_tex', 'assets/MATRESS_1_TEX.png')
+    context.load_texture('matress_2_tex', 'assets/MATRESS_2_TEX.png')
+    context.load_texture('matress_3_tex', 'assets/MATRESS_3_TEX.png')
+    context.load_texture('matress_4_tex', 'assets/MATRESS_4_TEX.png')
     context.load_texture('floor_tex', 'assets/FLOOR_TEX.png')
     context.load_texture('table_tex', 'assets/TABLE_TEX.png')
     context.load_texture('papers_1_tex', 'assets/PAPERS_1_TEX.png')
 
     default_shader = context.load_shader(
         'default_shader', 'assets/vertex_shader.vert', 'assets/fragment_shader.frag')
+
+    context.create_material("books", "default_shader", {
+        'texture': ("texture", 'books_tex', 0)
+    })
+
+    context.create_material("cabinate_1", "default_shader", {
+        'texture': ("texture", 'cabinate_1_tex', 0)
+    })
+
+    context.create_material("cabinate_2", "default_shader", {
+        'texture': ("texture", 'cabinate_2_tex', 0)
+    })
+
+    context.create_material("matress_1", "default_shader", {
+        'texture': ("texture", 'matress_1_tex', 0)
+    })
+
+    context.create_material("matress_2", "default_shader", {
+        'texture': ("texture", 'matress_2_tex', 0)
+    })
+
+    context.create_material("matress_3", "default_shader", {
+        'texture': ("texture", 'matress_3_tex', 0)
+    })
+
+    context.create_material("matress_4", "default_shader", {
+        'texture': ("texture", 'matress_4_tex', 0)
+    })
 
     context.create_material("default_material", "default_shader", {
         'texture': ("texture", 'grid', 0)
@@ -73,6 +108,33 @@ def load_assets(context: Context):
 
     papers_1 = context.scene.load_mesh('assets/PAPERS_1.obj')
     papers_1.material_name = 'papers_1'
+
+    books = context.scene.load_mesh('assets/BOOKS.obj')
+    books.material_name = 'books'
+
+    cabinate_1 = context.scene.load_mesh('assets/CABINATE_1.obj')
+    cabinate_1.material_name = 'cabinate_1'
+
+    cabinate_2 = context.scene.load_mesh('assets/CABINATE_2.obj')
+    cabinate_2.material_name = 'cabinate_2'
+
+    matress_1 = context.scene.load_mesh('assets/MATRESS_1.obj')
+    matress_1.material_name = 'matress_1'
+
+    matress_2 = context.scene.load_mesh('assets/MATRESS_2.obj')
+    matress_2.material_name = 'matress_2'
+
+    matress_3 = context.scene.load_mesh('assets/MATRESS_3.obj')
+    matress_3.material_name = 'matress_3'
+
+    matress_4 = context.scene.load_mesh('assets/MATRESS_4.obj')
+    matress_4.material_name = 'matress_4'
+
+    matress_8 = context.scene.load_mesh('assets/MATRESS_8.obj')
+    matress_8.material_name = 'matress_8'
+
+    matress_5 = context.scene.load_mesh('assets/MATRESS_5.obj')
+    matress_5.material_name = 'matress_5'
 
     # Compile Shaders
     default_shader.compile()
