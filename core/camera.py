@@ -56,3 +56,7 @@ class Camera:
         front.y = sin(glm.radians(self.pitch))
         front.z = sin(glm.radians(self.yaw)) * cos(glm.radians(self.pitch))
         self.front = glm.normalize(front)
+
+        final_x = min(0.5, max(-0.5, self.position.x))
+        final_z = min(4.2, max(-1.5, self.position.z))
+        self.position = glm.vec3(final_x, 1.5, final_z)

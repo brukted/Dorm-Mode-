@@ -21,6 +21,8 @@ def load_assets(context: Context):
     context.load_texture('matress_2_tex', 'assets/MATRESS_2_TEX.png')
     context.load_texture('matress_3_tex', 'assets/MATRESS_3_TEX.png')
     context.load_texture('matress_4_tex', 'assets/MATRESS_4_TEX.png')
+    context.load_texture('matress_8_tex', 'assets/MATRESS_8_TEX.png')
+    context.load_texture('matress_5_tex', 'assets/MATRESS_5_TEX.png')
     context.load_texture('floor_tex', 'assets/FLOOR_TEX.png')
     context.load_texture('table_tex', 'assets/TABLE_TEX.png')
     context.load_texture('papers_1_tex', 'assets/PAPERS_1_TEX.png')
@@ -67,6 +69,14 @@ def load_assets(context: Context):
 
     context.create_material("matress_4", "default_shader", {
         'texture': ("texture", 'matress_4_tex', 0)
+    })
+
+    context.create_material("matress_5", "default_shader", {
+        'texture': ("texture", 'matress_5_tex', 0)
+    })
+
+    context.create_material("matress_8", "default_shader", {
+        'texture': ("texture", 'matress_8_tex', 0)
     })
 
     context.create_material("default_material", "default_shader", {
